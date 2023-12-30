@@ -10,5 +10,10 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Assignment7Q3';
+  public title = 'Marvellous Infosystems';
+
+
+  public showTextWhenClick(){
+    this.title="Educating for better tommarrow";
+  }
 }
